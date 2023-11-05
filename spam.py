@@ -27,7 +27,7 @@ def banner():
 	printf "\e[1;32m       .:.:.\e[0m\e[1;95m  \e[0m\e[1;32m.:.:.\e[0m\n"
 	printf "\n"
 	printf "          \e[101m\e[1;77m:: Disclaimer:   ::\e[0m\n"
-	printf "            \e[101m\e[1;77m:: \n"
+	printf "            \e[101m\e[1;77m::[0m \n"
 	printf "\n"
 	''')
 
@@ -53,7 +53,7 @@ elif msgs>500:
     print(color)
     print("You can't Send more than 500 Msgs At a Time")
 elif len(target)==10 and msgs<=500:
-    if target=="9519874705" or target=="7992258221" or target=="9313447013" or target=="7903261051" or target=="7205595198" or target=="8476908900":
+    if target=="":
         import support
         support.Support(color)
         
